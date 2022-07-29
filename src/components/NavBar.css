@@ -1,0 +1,9 @@
+.navbar{
+      background-color: transparent;
+      padding: 1.4rem
+  }
+    
+  .navbar.colorChange{
+      background-color: rgba(8, 34, 46,0.8);
+      padding: 1rem
+  }
