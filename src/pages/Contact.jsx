@@ -1,5 +1,5 @@
 import {  Box, Heading, Text, Image } from '@chakra-ui/react'
-import Mail from '../../Images/Mail.png'
+import Mail from '../../Images/mail.png'
 import Map from '../../Images/map.png'
 import Telephone from '../../Images/telephone.png'
 
