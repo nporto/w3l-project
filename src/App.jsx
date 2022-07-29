@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Box } from '@chakra-ui/react'
 import NavBar2 from './components/NavBar2'
 import Home from './pages/Home'
@@ -10,7 +9,6 @@ import Sponsors from './pages/Sponsors'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
 import Footer from './pages/Footer'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
 function App() {
@@ -18,12 +16,8 @@ function App() {
   return (
     <Router>
       <Box minHeight="100vh" overflowX="hidden">
+        <Home />
         <NavBar2 />
-        <Routes>
-          <Route path="/" element={<Home />} exact />
-          <Route path="/pages/about" element={<About />} exact />
-          <Route path="/pages/info" element={<Info />} exact />
-        </Routes>
         <About id="about" />
         <Info id="info" />
         <Team />

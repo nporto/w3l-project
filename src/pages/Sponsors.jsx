@@ -1,4 +1,4 @@
-import {  Box, ListIcon, Heading, Text, UnorderedList, ListItem, Image } from '@chakra-ui/react'
+import {  Box, Heading, ListItem, Image } from '@chakra-ui/react'
 
 function Sponsors() {
 

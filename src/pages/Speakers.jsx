@@ -1,4 +1,4 @@
-import {  Box, ListIcon, Heading, Text, UnorderedList, ListItem, Image } from '@chakra-ui/react'
+import {  Box, Heading, Text, Image } from '@chakra-ui/react'
 
 function Speakers() {
 

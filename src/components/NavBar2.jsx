@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { UnorderedList, Box, ListItem, Heading } from '@chakra-ui/react'
 import './NavBar2.css'
-import { Link } from 'react-router-dom'
 
 function MainNavBar() {
 

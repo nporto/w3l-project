@@ -1,4 +1,4 @@
-import {  Box, Heading, Image, Text, } from '@chakra-ui/react'
+import {  Box, Heading, Text, } from '@chakra-ui/react'
 
 function Footer() {
 
@@ -12,7 +12,7 @@ function Footer() {
             <Heading marginLeft="1rem" size="md">Nuestras redes</Heading>
             <Box display="flex" flexDirection="row">
                   <Box>
-                        
+
                   </Box>
                   <Box>
 
