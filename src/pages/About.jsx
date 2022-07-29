@@ -1,4 +1,5 @@
 import {  Box, ListIcon, Heading, Text, UnorderedList, ListItem, Image } from '@chakra-ui/react'
+import Logo from '../../Images/Signo4.png'
 
 function About() {
 
@@ -32,7 +33,7 @@ function About() {
                         </UnorderedList>       
                </Box>
                <Box marginRight={{base: "50%", md: 'auto', lg: 'auto'}} marginTop={{base: '10%', md: 'auto', lg: 'auto'}} marginLeft={{base: 'auto', md: 'auto', lg: 'auto'}} marginBottom="auto" width={{base: '100%', md: '70%', lg: '30%'}} textAlign="center">
-                  <Image width="100%" height="auto" objectFit="cover" src="../Images/Signo 4.png" />
+                  <Image width="100%" height="auto" objectFit="cover" src={Logo} />
                </Box>
          </Box>
          <Box 

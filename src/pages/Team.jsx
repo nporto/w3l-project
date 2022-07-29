@@ -1,15 +1,19 @@
 import {  Box, ListIcon, Heading, Text, UnorderedList, ListItem, Image } from '@chakra-ui/react'
+import Trama from '../../Images/LogoTrama.png'
+import FirstLogo from '../../Images/Teamsection3.png'
+import SecondLogo from '../../Images/Teamsection.png'
+import ThirdLogo from '../../Images/Teamsection2.png'
 
 function Team() {
 
   return (
-   <Box maxWidth="100vw" padding="3rem" paddingBottom="0">
+   <Box maxWidth="100vw" padding="3rem" paddingBottom="0" id="team">
          <Heading textAlign="center">¿QUIENES SOMOS?</Heading>
          <Box display="flex" flexDirection="row">
             <Box width={{base: '100%', md: '80%', lg: "70%"}} padding={{base: '2rem', md: '3rem', lg: '4rem'}} paddingLeft={{base: '5rem', md: '7rem', lg: '9rem'}}>
                   <Box display="flex" flexDirection="row" padding="2rem">
                         <Box minWidth="40px" height="auto" paddingRight="0.3rem">
-                              <Image src="../Images/Team section 3.png"></Image>
+                              <Image src={FirstLogo}></Image>
                         </Box>
                         <Box display="flex" flexDirection="column">    
                               <Heading size="lg" fontWeight="500">Trama</Heading>
@@ -18,7 +22,7 @@ function Team() {
                   </Box>
                   <Box display="flex" flexDirection="row" padding="2rem" paddingY="0">
                         <Box minWidth="40px" height="auto" paddingRight="0.3rem">
-                              <Image src="../Images/Team section.png"></Image>
+                              <Image src={SecondLogo}></Image>
                         </Box>
                         <Box display="flex" flexDirection="column">    
                               <Heading size="lg" fontWeight="500">Nuestros Clubes</Heading>
@@ -27,7 +31,7 @@ function Team() {
                   </Box>
                   <Box display="flex" flexDirection="row" padding="2rem">
                         <Box minWidth="40px" height="auto" paddingRight="0.3rem">
-                              <Image src="../Images/Team section 2.png"></Image>
+                              <Image src={ThirdLogo}></Image>
                         </Box>
                         <Box display="flex" flexDirection="column">    
                               <Heading size="lg" fontWeight="500">Club Finanzas</Heading>
@@ -48,7 +52,7 @@ function Team() {
                   maxWidth="50%" 
                   height="auto" 
                   objectFit="cover" 
-                  src="../Images/Logo Trama.png" />
+                  src={Trama} />
             </Box>
           </Box>
          

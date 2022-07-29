@@ -35,7 +35,7 @@ function MainNavBar() {
    
    //Change background color
    >
-         <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl">W3L</Heading></Box>
+         <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl"><a href="#home">W3L</a></Heading></Box>
          <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center">
             <a href="#" className="toggle-button" onClick={() => {
             setNavBarActive(!navBarActive)
@@ -54,9 +54,8 @@ function MainNavBar() {
             <UnorderedList position="relative" display="flex" flexDirection="row" styleType="none" alignItems="center" justifyContent="space-between">
                         <ListItem color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#home">Home</a></Heading></ListItem>
                         <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#about">About</a></Heading></ListItem>
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md">Team</Heading></ListItem>   
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md">Inscripciones</Heading></ListItem>
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md">Sponsors y colaboraciones</Heading></ListItem>
+                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#team">Team</a></Heading></ListItem>   
+                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#sponsors">Sponsors y colaboraciones</a></Heading></ListItem>
                         <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer">IG</ListItem>
                         <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer">TW</ListItem>
                   </UnorderedList>

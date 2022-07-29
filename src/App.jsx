@@ -17,8 +17,8 @@ function App() {
       <Box minHeight="100vh" overflowX="hidden">
         <Home />
         <NavBar2 />
-        <About id="about" />
-        <Info id="info" />
+        <About />
+        <Info />
         <Team />
         <Speakers />
         <Sponsors />

@@ -1,4 +1,5 @@
 import {  Box, Heading, Image, Text } from '@chakra-ui/react'
+import FAQLogo from '../../Images/faq.png'
 
 function FAQ() {
 
@@ -18,7 +19,7 @@ function FAQ() {
                   textAlign="left"
                   flexDirection="row" 
                   alignItems="center" >
-                        <Image src="../src/faq.png" padding="1rem" />
+                        <Image src={FAQLogo} padding="1rem" />
                         <Heading size="md" fontWeight="600">¿Cuánto sale la entrada?</Heading>
                   </Box>
                  <Text paddingLeft="4rem" fontSize="lg">Es gratis!</Text>
@@ -35,7 +36,7 @@ function FAQ() {
                   textAlign="left"
                   flexDirection="row" 
                   alignItems="center" >
-                        <Image src="../Images/faq.png" padding="1rem" />
+                        <Image src={FAQLogo} padding="1rem" />
                         <Heading size="md" fontWeight="600">¿Cuánto sale la entrada?</Heading>
                   </Box>
                  <Text paddingLeft="4rem" fontSize="lg">Es gratis!</Text>
@@ -52,7 +53,7 @@ function FAQ() {
                   textAlign="left"
                   flexDirection="row" 
                   alignItems="center" >
-                        <Image src="../Images/faq.png" padding="1rem" />
+                        <Image src={FAQLogo} padding="1rem" />
                         <Heading size="md" fontWeight="600">¿Cuánto sale la entrada?</Heading>
                   </Box>
                  <Text paddingLeft="4rem" fontSize="lg">Es gratis!</Text>
@@ -69,7 +70,7 @@ function FAQ() {
                   textAlign="left"
                   flexDirection="row" 
                   alignItems="center" >
-                        <Image src="../Images/faq.png" padding="1rem" />
+                        <Image src={FAQLogo} padding="1rem" />
                         <Heading size="md" fontWeight="600">¿Cuánto sale la entrada?</Heading>
                   </Box>
                  <Text paddingLeft="4rem" fontSize="lg">Es gratis!</Text>

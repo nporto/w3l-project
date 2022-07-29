@@ -1,10 +1,12 @@
 import {  Box, Button, Heading, Text, Image } from '@chakra-ui/react'
 import './Home.css'
+import Logo from '../../Images/Signo4.png'
 
 function Home() {
 
   return (
    <Box 
+   id="home"
    minHeight="100vh" 
    maxWidth="100vw"
    display="flex" 
@@ -24,7 +26,7 @@ function Home() {
             maxWidth="50%" 
             height="auto" 
             objectFit="cover" 
-            src="../Images/Signo 4.png" />
+            src={Logo} />
          </Box>
    </Box>
   )
