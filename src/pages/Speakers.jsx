@@ -1,5 +1,5 @@
 import {  Box, Heading, Text, Image } from '@chakra-ui/react'
-import Julian from '../../Images/julian neuss.jpeg'
+import Julian from '../../Images/julianeuss.jpeg'
 
 function Speakers() {
 
