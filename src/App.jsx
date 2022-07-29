@@ -14,7 +14,6 @@ import Footer from './pages/Footer'
 function App() {
 
   return (
-    <Router>
       <Box minHeight="100vh" overflowX="hidden">
         <Home />
         <NavBar2 />
@@ -27,7 +26,6 @@ function App() {
         <Contact />
         <Footer />
       </Box>
-    </Router>
     
   )
 }
