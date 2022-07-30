@@ -5,6 +5,7 @@ import About from './pages/About'
 import Info from './pages/Info'
 import Team from './pages/Team'
 import Speakers from './pages/Speakers'
+import SpeakersInvitados from './pages/SpeakersInvitados'
 import Sponsors from './pages/Sponsors'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
@@ -21,6 +22,7 @@ function App() {
         <Info />
         <Team />
         <Speakers />
+        <SpeakersInvitados />
         <Sponsors />
         <FAQ />
         <Contact />

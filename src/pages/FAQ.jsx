@@ -4,7 +4,7 @@ import FAQLogo from '../../Images/faq.png'
 function FAQ() {
 
   return (
-   <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" padding="2rem" backgroundColor="purple.300">
+   <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" padding="2rem" backgroundColor="purple.300" id="faq">
       <Heading textAlign="center">PREGUNTAS FRECUENTES</Heading>
       <Box padding="2rem" >
             <Box 

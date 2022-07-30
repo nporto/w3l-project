@@ -58,6 +58,8 @@ function MainNavBar() {
                         <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#about">About</a></Heading></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#team">Team</a></Heading></ListItem>   
                         <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#sponsors">Sponsors y colaboraciones</a></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#speakers">Speakers</a></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#faq">FAQ</a></Heading></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><Image src={Twitter1} /></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><Image src={Ig1} /></ListItem>
                   </UnorderedList>
