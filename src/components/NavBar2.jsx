@@ -37,7 +37,7 @@ function MainNavBar() {
    zIndex="997"
    //Change background color
    >
-         <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl"><a href="#home">W3L</a></Heading></Box>
+         <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl"><a href="#home">W3Lab</a></Heading></Box>
          <Box cursor="pointer" height="100%" display="block" background>
             <a className="toggle-button" onClick={() => {
             setNavBarActive(!navBarActive)
@@ -54,12 +54,12 @@ function MainNavBar() {
          alignItems={{sm: '', lg: 'center'}} 
          className={navBarActive ? 'navbar-links active' : 'navbar-links'}>
             <UnorderedList position="relative" display="flex" flexDirection="row" styleType="none" alignItems="center" justifyContent="space-between">
-                        <ListItem color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#home">Home</a></Heading></ListItem>
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#about">About</a></Heading></ListItem>
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#team">Team</a></Heading></ListItem>   
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#sponsors">Sponsors y colaboraciones</a></Heading></ListItem>
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><a><Image src={Twitter1} /></a></ListItem>
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><a><Image src={Ig1} /></a></ListItem>
+                        <ListItem color="white" cursor="pointer"><Heading size="md"><a href="#home">Home</a></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#about">About</a></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#team">Team</a></Heading></ListItem>   
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#sponsors">Sponsors y colaboraciones</a></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Image src={Twitter1} /></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Image src={Ig1} /></ListItem>
                   </UnorderedList>
          </Box>
    </Box>
