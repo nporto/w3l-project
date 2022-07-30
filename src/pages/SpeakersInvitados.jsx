@@ -8,10 +8,10 @@ import Linkedin from '../../Images/linkedin24.png'
 
 
 // a1a8a1
-function Speakers() {
+function SpeakersInvitados() {
 
   return (
-   <Box padding="2rem" backgroundColor="rgb(20, 125, 206)"  >
+   <Box padding="2rem" backgroundColor="rgb(18, 61, 171)"  >
          <Heading color="white">Speakers invitados</Heading>
          <Box display="flex" justifyContent="center" alignItems="center" width="100%" paddingTop="2rem">
                   <Box display="grid" gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr 1fr'}} gridTemplateRows={{base: '1fr', md: '1fr', lg: '1fr'}} gridGap="5">
@@ -57,4 +57,4 @@ function Speakers() {
   )
 }
 
-export default Speakers
+export default SpeakersInvitados

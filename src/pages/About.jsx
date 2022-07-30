@@ -20,15 +20,7 @@ function About() {
                         <UnorderedList styleType="none">
                               <ListItem fontSize="2xl">
                               <ListIcon color='white' />
-                              Agregar descripcion
-                              </ListItem>
-                              <ListItem fontSize="2xl">
-                              <ListIcon color='white' />
-                              Agregar descripcion
-                              </ListItem>
-                              <ListItem fontSize="2xl">
-                              <ListIcon color='white' />
-                              Agregar descripcion
+                                    El programa tiene como objetivo fortalecer el desarrollo de nuevas tecnologías y nuevos casos de uso en tecnología W3 apalancados principalmente en el conocimiento de expertos que han egresado o son parte del cuerpo docente de ITBA
                               </ListItem>
                         </UnorderedList>       
                </Box>
