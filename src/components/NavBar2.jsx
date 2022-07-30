@@ -32,17 +32,17 @@ function MainNavBar() {
    alignItems="center"
    boxSizing="border-box"
    transition="all 0.5s"
-   
+   zIndex="997"
    //Change background color
    >
          <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl"><a href="#home">W3L</a></Heading></Box>
-         <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center">
-            <a href="#" className="toggle-button" onClick={() => {
+         <Box cursor="pointer" height="100%" display="block" background>
+            <a className="toggle-button" onClick={() => {
             setNavBarActive(!navBarActive)
             }}>
-                  <span className="bar"></span>
-                  <span className="bar"></span>
-                  <span className="bar"></span>
+                  <span cursor="pointer" className="bar"></span>
+                  <span cursor="pointer" className="bar"></span>
+                  <span cursor="pointer" className="bar"></span>
             </a>
          </Box>
          <Box 
