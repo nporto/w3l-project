@@ -25,11 +25,66 @@ function Speakers() {
                               </Box>
                         </Box>
                   </Box>
-                  <Box height="50px" width="50px" backgroundColor="black"></Box>
-                  <Box height="50px" width="50px" backgroundColor="black"></Box>
-                  <Box height="50px" width="50px" backgroundColor="black"></Box>
-                  <Box height="50px" width="50px" backgroundColor="black"></Box>
-                  <Box height="50px" width="50px" backgroundColor="black"></Box>
+                  <Box position="relative">
+                        <Image maxWidth="300px" src={Julian} borderRadius="0.4rem" />
+                        <Box color="white" position="absolute" bottom="0" textAlign="center" width="100%" background="rgba(6, 12, 34, 0.76)">
+                              <Heading size="lg">Julian Neuss</Heading>
+                              <Text>Co-Founder & CEO - Fanz</Text>
+                              <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" padding="0.4rem">
+                                    <Box cursor="pointer"><a ><Image src={Twitter2} /></a></Box>
+                                    <Box cursor="pointer" paddingX="1rem"><a target="_blank" href="https://www.instagram.com/julianjneuss/"><Image src={Ig2} /></a></Box>
+                                    <Box cursor="pointer"><a target="_blank" href="https://www.linkedin.com/in/jneuss/?originalSubdomain=ar"><Image src={Linkedin} /></a></Box>
+                              </Box>
+                        </Box>
+                  </Box>
+                  <Box position="relative">
+                        <Image maxWidth="300px" src={Julian} borderRadius="0.4rem" />
+                        <Box color="white" position="absolute" bottom="0" textAlign="center" width="100%" background="rgba(6, 12, 34, 0.76)">
+                              <Heading size="lg">Julian Neuss</Heading>
+                              <Text>Co-Founder & CEO - Fanz</Text>
+                              <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" padding="0.4rem">
+                                    <Box cursor="pointer"><a ><Image src={Twitter2} /></a></Box>
+                                    <Box cursor="pointer" paddingX="1rem"><a target="_blank" href="https://www.instagram.com/julianjneuss/"><Image src={Ig2} /></a></Box>
+                                    <Box cursor="pointer"><a target="_blank" href="https://www.linkedin.com/in/jneuss/?originalSubdomain=ar"><Image src={Linkedin} /></a></Box>
+                              </Box>
+                        </Box>
+                  </Box>
+                  <Box position="relative">
+                        <Image maxWidth="300px" src={Julian} borderRadius="0.4rem" />
+                        <Box color="white" position="absolute" bottom="0" textAlign="center" width="100%" background="rgba(6, 12, 34, 0.76)">
+                              <Heading size="lg">Julian Neuss</Heading>
+                              <Text>Co-Founder & CEO - Fanz</Text>
+                              <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" padding="0.4rem">
+                                    <Box cursor="pointer"><a ><Image src={Twitter2} /></a></Box>
+                                    <Box cursor="pointer" paddingX="1rem"><a target="_blank" href="https://www.instagram.com/julianjneuss/"><Image src={Ig2} /></a></Box>
+                                    <Box cursor="pointer"><a target="_blank" href="https://www.linkedin.com/in/jneuss/?originalSubdomain=ar"><Image src={Linkedin} /></a></Box>
+                              </Box>
+                        </Box>
+                  </Box>
+                  <Box position="relative">
+                        <Image maxWidth="300px" src={Julian} borderRadius="0.4rem" />
+                        <Box color="white" position="absolute" bottom="0" textAlign="center" width="100%" background="rgba(6, 12, 34, 0.76)">
+                              <Heading size="lg">Julian Neuss</Heading>
+                              <Text>Co-Founder & CEO - Fanz</Text>
+                              <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" padding="0.4rem">
+                                    <Box cursor="pointer"><a ><Image src={Twitter2} /></a></Box>
+                                    <Box cursor="pointer" paddingX="1rem"><a target="_blank" href="https://www.instagram.com/julianjneuss/"><Image src={Ig2} /></a></Box>
+                                    <Box cursor="pointer"><a target="_blank" href="https://www.linkedin.com/in/jneuss/?originalSubdomain=ar"><Image src={Linkedin} /></a></Box>
+                              </Box>
+                        </Box>
+                  </Box>
+                  <Box position="relative">
+                        <Image maxWidth="300px" src={Julian} borderRadius="0.4rem" />
+                        <Box color="white" position="absolute" bottom="0" textAlign="center" width="100%" background="rgba(6, 12, 34, 0.76)">
+                              <Heading size="lg">Julian Neuss</Heading>
+                              <Text>Co-Founder & CEO - Fanz</Text>
+                              <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" padding="0.4rem">
+                                    <Box cursor="pointer"><a ><Image src={Twitter2} /></a></Box>
+                                    <Box cursor="pointer" paddingX="1rem"><a target="_blank" href="https://www.instagram.com/julianjneuss/"><Image src={Ig2} /></a></Box>
+                                    <Box cursor="pointer"><a target="_blank" href="https://www.linkedin.com/in/jneuss/?originalSubdomain=ar"><Image src={Linkedin} /></a></Box>
+                              </Box>
+                        </Box>
+                  </Box>
             </Box>
          </Box>
          

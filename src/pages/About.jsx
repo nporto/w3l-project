@@ -12,23 +12,23 @@ function About() {
    flexDirection="column" 
    alignContent="center"
    alignItems="center"
-   backgroundColor="rgb(31, 160, 183)"
+   backgroundColor="rgb(16, 101, 150)"
    color="white">
          <Box display="flex" flexDirection={{base: 'column', md: 'row', lg: 'row'}} paddingTop="5rem" maxWidth="80%">
                <Box width={{base: '100%', md: '70%', lg: '50%'}} opacity="1" transform="translateZ(0)" transitionTimingFunction="ease-in-out" transitionDuration="1s" >
                         <Heading textAlign="center" justifySelf="center" marginBottom="1.5rem">¿QUÉ ES EL W3Lab?</Heading>
                         <UnorderedList styleType="none">
                               <ListItem fontSize="2xl">
-                              <ListIcon color='green.500' />
-                              Festival tecnológico que te va a sumergir completamente en el ecosistema cripto
+                              <ListIcon color='white' />
+                              Agregar descripcion
                               </ListItem>
                               <ListItem fontSize="2xl">
-                              <ListIcon color='green.500' />
-                              Una experiencia unica para aprender y conectar con empresas, proyectos, protocolos y figuras del ambiente.
+                              <ListIcon color='white' />
+                              Agregar descripcion
                               </ListItem>
                               <ListItem fontSize="2xl">
-                              <ListIcon color='green.500' />
-                              Disfrutá de un día completo a puro cripto.
+                              <ListIcon color='white' />
+                              Agregar descripcion
                               </ListItem>
                         </UnorderedList>       
                </Box>
