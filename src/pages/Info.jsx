@@ -4,7 +4,7 @@ function Info() {
 
   return (
    <Box 
-   backgroundImage="linear-gradient(to right, rgb(54, 140, 63), rgb(34, 173, 48))" 
+   backgroundImage="linear-gradient(to right, rgb(31, 160, 183), rgb(59, 201, 226))" 
    display="flex" 
    flexDirection={{base: 'column', md: 'row', lg: 'row'}}
    justifyContent="space-around" 
@@ -12,9 +12,8 @@ function Info() {
    color="white"
    paddingX="9rem"
    paddingY="1rem"
-   overflow="hidden"
-   maxWidth="100vw">
-         <Box display="flex" justifyContent="space-around" alignItems="center">
+   overflow="hidden">
+         <Box display="flex" justifyContent="space-around" alignItems="center" maxWidth="90vw">
             <Box display="flex"flexDirection="column" paddingX={{base: '0', md: '1.6rem', lg: '3rem'}}>
                <Heading textAlign="center">+700</Heading>
                <Text>PARTICIPANTES</Text>
