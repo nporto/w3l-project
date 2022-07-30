@@ -1,6 +1,8 @@
 import { useState } from 'react'
-import { UnorderedList, Box, ListItem, Heading } from '@chakra-ui/react'
+import { UnorderedList, Box, ListItem, Heading, Image } from '@chakra-ui/react'
 import './NavBar2.css'
+import Twitter1 from '../../Images/Twitter32.png'
+import Ig1 from '../../Images/Ig32.png'
 
 function MainNavBar() {
 
@@ -56,8 +58,8 @@ function MainNavBar() {
                         <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#about">About</a></Heading></ListItem>
                         <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#team">Team</a></Heading></ListItem>   
                         <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><Heading size="md"><a href="#sponsors">Sponsors y colaboraciones</a></Heading></ListItem>
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer">IG</ListItem>
-                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer">TW</ListItem>
+                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><a><Image src={Twitter1} /></a></ListItem>
+                        <ListItem px="0.8rem" color="rgb(161, 168, 161)" cursor="pointer"><a><Image src={Ig1} /></a></ListItem>
                   </UnorderedList>
          </Box>
    </Box>

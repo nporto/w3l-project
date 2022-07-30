@@ -16,7 +16,7 @@ function About() {
    color="white">
          <Box display="flex" flexDirection={{base: 'column', md: 'row', lg: 'row'}} paddingTop="5rem" maxWidth="70%">
                <Box width={{base: '90%', md: '70%', lg: '50%'}} opacity="1" transform="translateZ(0)" transitionTimingFunction="ease-in-out" transitionDuration="1s" >
-                        <Heading textAlign="center" justifySelf="center" marginBottom="1.5rem">¿QUÉ ES EL CRYPTOPALL?</Heading>
+                        <Heading textAlign="center" justifySelf="center" marginBottom="1.5rem">¿QUÉ ES EL W3Lab?</Heading>
                         <UnorderedList styleType="none">
                               <ListItem fontSize="2xl">
                               <ListIcon color='green.500' />
