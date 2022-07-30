@@ -12,7 +12,7 @@ function About() {
    flexDirection="column" 
    alignContent="center"
    alignItems="center"
-   backgroundColor="rgb(16, 101, 150)"
+   backgroundColor="rgb(14, 57, 165)"
    color="white">
          <Box display="flex" flexDirection={{base: 'column', md: 'row', lg: 'row'}} paddingTop="5rem" maxWidth="80%">
                <Box width={{base: '100%', md: '70%', lg: '50%'}} opacity="1" transform="translateZ(0)" transitionTimingFunction="ease-in-out" transitionDuration="1s" >

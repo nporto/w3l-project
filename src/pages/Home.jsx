@@ -13,7 +13,7 @@ function Home() {
    flexDirection={{base: "column-reverse", md: "row", lg: "row"}} 
    alignItems="center" 
    paddingLeft={{base: '0', md: '0', lg: '10rem'}}
-   background="linear-gradient(45deg, rgb(31, 80, 155) 0%, rgb(76, 161, 211) 100%), url(../Images/hero-bg.jpg) center center no-repeat;"
+   background="linear-gradient(45deg, rgb(17, 33, 73) 0%, rgb(19, 81, 239) 100%), url(../Images/hero-bg.jpg) center center no-repeat;"
    textAlign={{base: 'center', md: 'inherit', lg: 'inherit'}}>
          <Box padding="5rem" width={{base: '100%', md: '70%', lg: '50%'}}>
             <Heading color="white" size="4xl">W3LAB LOGO</Heading>

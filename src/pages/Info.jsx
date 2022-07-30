@@ -4,7 +4,7 @@ function Info() {
 
   return (
    <Box 
-   backgroundImage="linear-gradient(to right, rgb(14, 76, 112), rgb(59, 201, 226))" 
+   backgroundImage="linear-gradient(to right, rgb(6, 39, 124), rgb(41, 94, 229))" 
    display="flex" 
    flexDirection={{base: 'column', md: 'row', lg: 'row'}}
    justifyContent="space-around" 
