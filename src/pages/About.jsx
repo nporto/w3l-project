@@ -40,6 +40,7 @@ function About() {
          display="grid" 
          gridTemplateColumns={{base: "1fr", md: "1fr 1fr", lg: "1fr 1fr 1fr" }}
          minWidth={{base: "70%", md: "80%", lg: "70%"}}
+         maxWidth={{base: '80%', md: '80%', lg: '70%'}}
          gridGap={{base: "1rem", md: "5rem", lg: "5rem"}}
          paddingTop="5rem"
          textAlign="center"

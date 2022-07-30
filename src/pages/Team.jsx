@@ -10,7 +10,7 @@ function Team() {
    <Box maxWidth="100vw" padding="3rem" paddingBottom="0" id="team">
          <Heading textAlign="center">¿QUIENES SOMOS?</Heading>
          <Box display="flex" flexDirection="row">
-            <Box width={{base: '100%', md: '80%', lg: "70%"}} padding={{base: '2rem', md: '3rem', lg: '4rem'}} paddingLeft={{base: '5rem', md: '7rem', lg: '9rem'}}>
+            <Box width={{base: '100%', md: '80%', lg: "70%"}} padding={{base: '2rem', md: '3rem', lg: '4rem'}} paddingLeft={{base: '0rem', md: '7rem', lg: '9rem'}}>
                   <Box display="flex" flexDirection="row" padding="2rem">
                         <Box minWidth="40px" height="auto" paddingRight="0.3rem">
                               <Image src={FirstLogo}></Image>
