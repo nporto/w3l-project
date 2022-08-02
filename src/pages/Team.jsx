@@ -15,7 +15,7 @@ function Team() {
          gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr'}} 
          gridTemplateRows={{base: '1fr 1fr 1fr 1fr', md: '1fr 1fr 1fr 1fr 1fr 1fr', lg: '1fr 1fr'}} gridGap="4"
          paddingLeft="4rem">
-            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+            <Box background="rgb(71, 222, 242)" maxWidth="80%" color="white" borderRadius="1rem" display="flex" flexDirection="row" textAlign="center" position="relative">
                   <Image 
                   maxWidth="50%" 
                   height="auto" 
@@ -23,12 +23,12 @@ function Team() {
                   borderRadius="1rem" 
                   src={Gabriela2} />
                   <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
-                        <Heading>Gabriela Macagni</Heading>
+                        <Heading >Gabriela Macagni</Heading>
                         <Text fontSize="2xl" fontWeight="500">Matterscale Ventures</Text>
                   </Box>
                   
             </Box>
-            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+            <Box display="flex" background="rgb(71, 222, 242)" maxWidth="80%" color="white" borderRadius="1rem" flexDirection="row" textAlign="center" position="relative">
                   <Image 
                   maxWidth="50%" 
                   height="auto" 
@@ -40,7 +40,7 @@ function Team() {
                         <Text fontSize="2xl" fontWeight="500"></Text>
                   </Box>
             </Box>
-            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+            <Box display="flex" background="rgb(71, 222, 242)" maxWidth="80%" color="white" borderRadius="1rem" flexDirection="row" textAlign="center" position="relative">
                   <Image 
                   maxWidth="50%" 
                   height="auto" 
@@ -52,7 +52,7 @@ function Team() {
                         <Text fontSize="2xl" fontWeight="500"></Text>
                   </Box>
             </Box>
-            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+            <Box display="flex" background="rgb(71, 222, 242)" maxWidth="80%" color="white" borderRadius="1rem" flexDirection="row" textAlign="center" position="relative">
                   <Image 
                   maxWidth="50%" 
                   height="auto" 
