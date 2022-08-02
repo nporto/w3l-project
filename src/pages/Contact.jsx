@@ -1,7 +1,6 @@
 import {  Box, Heading, Text, Image } from '@chakra-ui/react'
 import Mail from '../../Images/mail.png'
 import Map from '../../Images/map.png'
-import Telephone from '../../Images/telephone.png'
 
 function Contact() {
 
@@ -18,12 +17,7 @@ function Contact() {
             <Box display="flex" flexDirection="column" padding="3rem" backgroundColor="white" borderRadius="0.6rem" marginX={{base: '0rem', md: '0rem', lg: '3rem'}} marginY={{base: '2rem', md: '2.5rem', lg: '0rem'}} alignItems='center'>
                   <Image src={Mail} maxWidth="48px" />
                   <Heading padding="1rem" size="lg">Contactános</Heading>
-                  <Text maxWidth="100%">cryptopalltrama@gmail.com</Text>
-            </Box>
-            <Box display="flex" flexDirection="column" padding="3rem" backgroundColor="white" borderRadius="0.6rem" alignItems="center">
-            <Image src={Telephone} maxWidth="48px" />
-                  <Heading padding="1rem" size="lg">Comunicate</Heading>
-                  <Text>+54 3874200199</Text>
+                  <Text maxWidth="100%">E-Mail</Text>
             </Box>
       </Box>
    </Box>

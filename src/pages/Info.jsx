@@ -12,23 +12,20 @@ function Info() {
    color="white"
    paddingX="9rem"
    paddingY="1rem"
-   overflow="hidden">
-         <Box display="flex" justifyContent="space-around" alignItems="center" maxWidth="70vw">
-            <Box display="flex"flexDirection="column" paddingX={{base: '0', md: '1.6rem', lg: '3rem'}}>
-               <Heading textAlign="center">+700</Heading>
-               <Text>PARTICIPANTES</Text>
+   overflow="hidden"
+   maxHeight={{base: 'auto', md: 'auto', lg: '10vh'}}>
+         <Box display="flex" flexDirection={{base: 'column', md: 'row', lg: 'row'}} justifyContent={{base: 'center', md: 'space-around', lg: 'space-around'}} alignItems="center" maxWidth="70vw">
+            <Box display="flex"flexDirection="column" paddingX={{base: '0rem', md: '1.6rem', lg: '3rem'}}>
+               <Heading textAlign="center">+15</Heading>
+               <Text fontSize="lg" fontWeight="500" textAlign="center">STARTUPS</Text>
+            </Box>
+            <Box display="flex" flexDirection="column" paddingX={{base: '0.6rem', md: '1.6rem', lg: '3rem'}}>
+               <Heading textAlign="center" >12</Heading>
+               <Text fontSize="lg" textAlign="center" fontWeight="500">SEMANAS DE FORMACION</Text>
             </Box>
             <Box display="flex" flexDirection="column" paddingX={{base: '0.6rem', md: '1.6rem', lg: '3rem'}}>
                <Heading textAlign="center">20</Heading>
-               <Text>ORADORES</Text>
-            </Box>
-            <Box display="flex" flexDirection="column" paddingX={{base: '0.6rem', md: '1.6rem', lg: '3rem'}}>
-               <Heading textAlign="center">12</Heading>
-               <Text>CHARLAS</Text>
-            </Box>
-            <Box display="flex" flex="0 0 auto" flexDirection="column" paddingX={{base: '0', md: '1.6rem', lg: '3rem'}}>
-               <Heading textAlign="center">10</Heading>
-               <Text>TALLERES</Text>
+               <Text fontSize="lg" textAlign="center" fontWeight="500">SPEAKERS DISERTANTES</Text>
             </Box>
          </Box>
    </Box>

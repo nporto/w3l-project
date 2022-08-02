@@ -11,7 +11,7 @@ import Linkedin from '../../Images/linkedin24.png'
 function SpeakersInvitados() {
 
   return (
-   <Box padding="2rem" backgroundColor="rgb(18, 61, 171)"  >
+   <Box padding="2rem" backgroundColor="rgb(71, 222, 242)"  >
          <Heading color="white">Speakers invitados</Heading>
          <Box display="flex" justifyContent="center" alignItems="center" width="100%" paddingTop="2rem">
                   <Box display="grid" gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr 1fr'}} gridTemplateRows={{base: '1fr', md: '1fr', lg: '1fr'}} gridGap="5">

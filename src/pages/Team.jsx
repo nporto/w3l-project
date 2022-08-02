@@ -1,58 +1,42 @@
-import {  Box, ListIcon, Heading, Text, UnorderedList, ListItem, Image } from '@chakra-ui/react'
-import Trama from '../../Images/LogoTrama.png'
-import FirstLogo from '../../Images/Teamsection3.png'
-import SecondLogo from '../../Images/Teamsection.png'
-import ThirdLogo from '../../Images/Teamsection2.png'
+import {  Box, Heading, Image, Text } from '@chakra-ui/react'
+import Gabriela2 from '../../Images/Gabriela2.jpeg'
+import Fernando from '../../Images/Fernando.jpeg'
 
 function Team() {
 
   return (
-   <Box maxWidth="100vw" padding="3rem" paddingBottom="0" id="team">
-         <Heading textAlign="center">¿QUIENES SOMOS?</Heading>
-         <Box display="flex" flexDirection="row">
-            <Box width={{base: '100%', md: '80%', lg: "70%"}} padding={{base: '2rem', md: '3rem', lg: '4rem'}} paddingLeft={{base: '0rem', md: '7rem', lg: '9rem'}}>
-                  <Box display="flex" flexDirection="row" padding="2rem">
-                        <Box minWidth="40px" height="auto" paddingRight="0.3rem">
-                              <Image src={FirstLogo}></Image>
-                        </Box>
-                        <Box display="flex" flexDirection="column">    
-                              <Heading size="lg" fontWeight="500">Trama</Heading>
-                              <Text fontSize="lg">Trama es una organización de estudiantes que nace en 2012 con dos objetivos principales, por un lado acercar el mundo laboral a los estudiantes y por otro generar en los jóvenes interés en las temáticas de actualidad.</Text>
-                        </Box>
-                  </Box>
-                  <Box display="flex" flexDirection="row" padding="2rem" paddingY="0">
-                        <Box minWidth="40px" height="auto" paddingRight="0.3rem">
-                              <Image src={SecondLogo}></Image>
-                        </Box>
-                        <Box display="flex" flexDirection="column">    
-                              <Heading size="lg" fontWeight="500">Nuestros Clubes</Heading>
-                              <Text fontSize="lg">La organización cuenta con cinco clubes: Emprendedores, Finanzas, Consultoría, Media y IT. Cada club tiene un ciclo de actividades anual, abierto a todos los estudiantes, que brinda la posibilidad de conocer de cerca cada uno de estos campos.</Text>
-                        </Box>
-                  </Box>
-                  <Box display="flex" flexDirection="row" padding="2rem">
-                        <Box minWidth="40px" height="auto" paddingRight="0.3rem">
-                              <Image src={ThirdLogo}></Image>
-                        </Box>
-                        <Box display="flex" flexDirection="column">    
-                              <Heading size="lg" fontWeight="500">Club Finanzas</Heading>
-                              <Text fontSize="lg">En el Club de Finanzas de Trama ITBA organizamos actividades para ayudarte a introducirte en este apasionante mundo! Competencias de trading, crypto, challenges, charlas y mucho más!</Text>
-                        </Box>
-                  </Box>
-                  <Box paddingTop="2rem" textAlign="center"><a href="https://www.instagram.com/trama.itba/">Conocer mas</a></Box>
-                  
-            </Box>
-            <Box 
-            marginRight={{base: "0%", md: 'auto', lg: 'auto'}} 
-            marginTop={{base: '50%', md: 'auto', lg: 'auto'}} 
-            marginLeft={{base: '50%', md: 'auto', lg: 'auto'}} 
-            marginBottom="auto" 
-            width={{base: '100%', md: '70%', lg: '50%'}}
-            paddingLeft="2rem">
+   <Box maxWidth="100vw" padding="3rem" paddingBottom="1rem" id="team">
+         <Heading textAlign="center" paddingBottom="2rem">¿QUIENES SOMOS?</Heading>
+         <Box 
+         minWidth="100%"
+         display="grid" 
+         gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr'}} 
+         gridTemplateRows={{base: '1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr', md: '1fr 1fr 1fr 1fr 1fr 1fr', lg: '1fr'}} gridGap="4"
+         paddingLeft="4rem">
+            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
                   <Image 
                   maxWidth="50%" 
                   height="auto" 
-                  objectFit="cover" 
-                  src={Trama} />
+                  objectFit="cover"
+                  borderRadius="1rem" 
+                  src={Gabriela2} />
+                  <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
+                        <Heading>Gabriela Macagni</Heading>
+                        <Text fontSize="2xl" fontWeight="500">Matterscale Ventures</Text>
+                  </Box>
+                  
+            </Box>
+            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+                  <Image 
+                  maxWidth="50%" 
+                  height="auto" 
+                  objectFit="cover"
+                  borderRadius="1rem" 
+                  src={Fernando} />
+                  <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
+                        <Heading>Fernando Errandosoro</Heading>
+                        <Text fontSize="2xl" fontWeight="500"></Text>
+                  </Box>
             </Box>
           </Box>
          
@@ -61,3 +45,10 @@ function Team() {
 }
 
 export default Team
+
+//marginRight={{base: "0%", md: 'auto', lg: 'auto'}} 
+///marginTop={{base: '50%', md: 'auto', lg: 'auto'}} 
+//marginLeft={{base: '50%', md: 'auto', lg: 'auto'}} 
+//marginBottom="auto" 
+//width={{base: '100%', md: '70%', lg: '50%'}}
+//paddingLeft="2rem"
