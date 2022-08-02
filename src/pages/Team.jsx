@@ -1,6 +1,8 @@
 import {  Box, Heading, Image, Text } from '@chakra-ui/react'
 import Gabriela2 from '../../Images/Gabriela2.jpeg'
 import Fernando from '../../Images/Fernando.jpeg'
+import Luis from '../../Images/Luis.jpeg'
+import Santiago from '../../Images/Santiago.jpeg'
 
 function Team() {
 
@@ -11,7 +13,7 @@ function Team() {
          minWidth="100%"
          display="grid" 
          gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr'}} 
-         gridTemplateRows={{base: '1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr', md: '1fr 1fr 1fr 1fr 1fr 1fr', lg: '1fr'}} gridGap="4"
+         gridTemplateRows={{base: '1fr 1fr 1fr 1fr', md: '1fr 1fr 1fr 1fr 1fr 1fr', lg: '1fr 1fr'}} gridGap="4"
          paddingLeft="4rem">
             <Box display="flex" flexDirection="row" textAlign="center" position="relative">
                   <Image 
@@ -35,6 +37,73 @@ function Team() {
                   src={Fernando} />
                   <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
                         <Heading>Fernando Errandosoro</Heading>
+                        <Text fontSize="2xl" fontWeight="500"></Text>
+                  </Box>
+            </Box>
+            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+                  <Image 
+                  maxWidth="50%" 
+                  height="auto" 
+                  objectFit="cover"
+                  borderRadius="1rem" 
+                  src={Luis} />
+                  <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
+                        <Heading>Luis Paolini</Heading>
+                        <Text fontSize="2xl" fontWeight="500"></Text>
+                  </Box>
+            </Box>
+            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+                  <Image 
+                  maxWidth="50%" 
+                  height="auto" 
+                  objectFit="cover"
+                  borderRadius="1rem" 
+                  src={Santiago} />
+                  <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
+                        <Heading>Santiago Valles</Heading>
+                        <Text fontSize="2xl" fontWeight="500"></Text>
+                  </Box>
+            </Box>
+          </Box>
+          <Box minWidth="100%"
+         display="grid" 
+         gridTemplateColumns={{base: '1 fr', md: '1fr 1fr 1fr', lg: '1fr 1fr 1fr'}} 
+         gridTemplateRows={{base: '1fr 1fr 1fr', md: '1fr', lg: '1fr'}} gridGap="4"
+         paddingLeft="4rem"
+         paddingBottom="2rem">
+            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+                  <Image 
+                  maxWidth="50%" 
+                  height="auto" 
+                  objectFit="cover"
+                  borderRadius="1rem" 
+                  src="" />
+                  <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
+                        <Heading></Heading>
+                        <Text fontSize="2xl" fontWeight="500"></Text>
+                  </Box>
+            </Box>
+            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+                  <Image 
+                  maxWidth="50%" 
+                  height="auto" 
+                  objectFit="cover"
+                  borderRadius="1rem" 
+                  src="" />
+                  <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
+                        <Heading></Heading>
+                        <Text fontSize="2xl" fontWeight="500"></Text>
+                  </Box>
+            </Box>
+            <Box display="flex" flexDirection="row" textAlign="center" position="relative">
+                  <Image 
+                  maxWidth="50%" 
+                  height="auto" 
+                  objectFit="cover"
+                  borderRadius="1rem" 
+                  src="" />
+                  <Box position="relative" top="40%" minHeight="100%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
+                        <Heading></Heading>
                         <Text fontSize="2xl" fontWeight="500"></Text>
                   </Box>
             </Box>
