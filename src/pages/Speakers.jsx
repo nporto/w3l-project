@@ -18,7 +18,7 @@ import Linkedin from '../../Images/linkedin24.png'
 function Speakers() {
 
   return (
-   <Box padding="2rem" backgroundColor="rgb(249, 248, 255)" id="speakers">
+   <Box padding="2rem" paddingTop="5rem" backgroundColor="rgb(249, 248, 255)" id="speakers">
          <Heading padding="1rem">Speakers</Heading>
          <Box display="flex" justifyContent="center" alignItems="center" width="100%">
             <Box position="relative" display="grid" gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr 1fr 1fr'}} gridTemplateRows={{base: '1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr', md: '1fr 1fr 1fr 1fr 1fr 1fr', lg: '1fr 1fr 1fr'}} gridGap="5">

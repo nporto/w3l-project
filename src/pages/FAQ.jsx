@@ -6,7 +6,7 @@ function FAQ() {
 //<Box id="faq" display= 'block' content= " " margin-top= '-80px' height= '80px' visibility= 'hidden' pointerEvents= 'none'></Box>
 
   return (
-   <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" padding="2rem" backgroundColor="rgb(51, 63, 255)">
+   <Box display="flex" flexDirection="column" id="faq" justifyContent="center" alignItems="center" padding="2rem" paddingTop="5rem" backgroundColor="rgb(51, 63, 255)">
       <Heading textAlign="center" color="white">PREGUNTAS FRECUENTES</Heading>
       <Box padding="2rem" >
             <Box 
