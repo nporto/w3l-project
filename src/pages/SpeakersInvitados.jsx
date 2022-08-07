@@ -1,10 +1,8 @@
-import {  Box, Heading, Text, Image } from '@chakra-ui/react'
+import {  Box, Heading } from '@chakra-ui/react'
 import Agustina from '../../Images/agustina.jpg'
 import Sebastian from '../../Images/sebastian.jpg'
 import Esteban from '../../Images/esteban.jpg'
-import Twitter2 from '../../Images/Twitter24.png'
-import Ig2 from '../../Images/Ig24.png'
-import Linkedin from '../../Images/linkedin24.png'
+import Card from '../components/SpeakersCard'
 
 
 // a1a8a1
@@ -15,42 +13,9 @@ function SpeakersInvitados() {
          <Heading color="white">Speakers invitados</Heading>
          <Box display="flex" justifyContent="center" alignItems="center" width="100%" paddingTop="2rem">
                   <Box display="grid" gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr 1fr'}} gridTemplateRows={{base: '1fr', md: '1fr', lg: '1fr'}} gridGap="5">
-                        <Box position="relative">
-                              <Image maxWidth="300px" src={Agustina} borderRadius="0.4rem" />
-                              <Box color="white" position="absolute" bottom="0" textAlign="center" width="100%" background="rgba(6, 12, 34, 0.76)">
-                                    <Heading size="lg">Agustina Fainguersch</Heading>
-                                    <Text>Meta</Text>
-                                    <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" padding="0.4rem">
-                                          <Box cursor="pointer"><a ><Image src={Twitter2} href="" /></a></Box>
-                                          <Box cursor="pointer" paddingX="1rem"><a target="_blank" href=""><Image src={Ig2} /></a></Box>
-                                          <Box cursor="pointer"><a target="_blank" href="https://www.linkedin.com/in/agustinafainguersch/"><Image src={Linkedin} /></a></Box>
-                                    </Box>
-                              </Box>
-                        </Box>
-                        <Box position="relative">
-                              <Image maxWidth="300px" src={Sebastian} borderRadius="0.4rem" />
-                              <Box color="white" position="absolute" bottom="0" textAlign="center" width="100%" background="rgba(6, 12, 34, 0.76)">
-                                    <Heading size="lg">Sebastian Serrano</Heading>
-                                    <Text>CEO & CO-Founder Ripio</Text>
-                                    <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" padding="0.4rem">
-                                          <Box cursor="pointer"><a ><Image src={Twitter2} href="" /></a></Box>
-                                          <Box cursor="pointer" paddingX="1rem"><a target="_blank" href=""><Image src={Ig2} /></a></Box>
-                                          <Box cursor="pointer"><a target="_blank" href="https://www.linkedin.com/in/sebastianserrano/"><Image src={Linkedin} /></a></Box>
-                                    </Box>
-                              </Box>
-                        </Box>
-                        <Box position="relative">
-                              <Image maxWidth="300px" src={Esteban} borderRadius="0.4rem" />
-                              <Box color="white" position="absolute" bottom="0" textAlign="center" width="100%" background="rgba(6, 12, 34, 0.76)">
-                                    <Heading size="lg">Esteban Ordano</Heading>
-                                    <Text>Co-Founder Decentraland</Text>
-                                    <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" padding="0.4rem">
-                                          <Box cursor="pointer"><a ><Image src={Twitter2} href="" /></a></Box>
-                                          <Box cursor="pointer" paddingX="1rem"><a target="_blank" href=""><Image src={Ig2} /></a></Box>
-                                          <Box cursor="pointer"><a target="_blank" href="https://www.linkedin.com/in/eordano/"><Image src={Linkedin} /></a></Box>
-                                    </Box>
-                              </Box>
-                        </Box>
+                        <Card image={Agustina} name="Agustina Fainguersch" description="Meta" twLink="#" igLink="#" linkedLink="https://www.linkedin.com/in/agustinafainguersch/" />
+                        <Card image={Sebastian} name="Sebastian Serrano" description="CEO & CO-Founder Ripio" twLink="#" igLink="#" linkedLink="https://www.linkedin.com/in/sebastianserrano/" />
+                        <Card image={Esteban} name="Esteban Ordano" description="Co-Founder Decentraland" twLink="#" igLink="#" linkedLink="https://www.linkedin.com/in/eordano/" />
                   </Box>
             </Box>
    </Box>
