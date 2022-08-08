@@ -14,7 +14,7 @@ function Team() {
          display="grid" 
          gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr'}} 
          gridTemplateRows={{base: '1fr 1fr 1fr 1fr', md: '1fr 1fr 1fr 1fr 1fr 1fr', lg: '1fr 1fr'}} gridGap="4"
-         paddingLeft="4rem">
+         paddingLeft={{base: '0rem', md: '2rem', lg: '4rem'}}>
             <Box background="rgb(71, 222, 242)" maxWidth={{base: '100%', lg: '80%'}} color="white" borderRadius="1rem" display="flex" flexDirection="row" textAlign="center" position="relative">
                   <Image 
                   maxWidth="50%" 

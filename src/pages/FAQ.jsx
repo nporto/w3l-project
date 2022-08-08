@@ -1,4 +1,4 @@
-import {  Box, Heading, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Text } from '@chakra-ui/react'
+import {  Box, Heading, Accordion } from '@chakra-ui/react'
 import FAQBox from '../components/FAQBox'
 
 function FAQ() {
