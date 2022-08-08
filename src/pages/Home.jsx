@@ -23,7 +23,7 @@ function Home() {
    background="linear-gradient(45deg, rgb(51, 63, 255) 0%, rgb(71, 222, 242) 100%), url(../Images/hero-bg.jpg) center center no-repeat;"
    textAlign={{base: 'center', md: 'inherit', lg: 'inherit'}}>
          <Box padding="5rem" width={{base: '100%', md: '70%', lg: '50%'}}>
-         <Text marginY={{base: '1rem', md: '1rem', lg: '1.1rem'}} color="green.400" fontWeight="700" fontSize="1.6rem">Fecha | Lugar</Text>
+            <Text marginY={{base: '1rem', md: '1rem', lg: '1.1rem'}} color="green.400" fontWeight="700" fontSize="1.6rem">Fecha | Lugar</Text>
             <Heading color="white" size="4xl"><Image src={logoStandard} /></Heading>
             <Text marginY={{base: '1rem', md: '1rem', lg: '1.1rem'}} color="white" fontSize="1.3rem">Slogan</Text>
             <Button paddingTop="1.6rem" colorScheme="green" padding="1.6rem" fontSize="1.5rem"><a href="#team">Get Started</a></Button>

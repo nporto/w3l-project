@@ -26,6 +26,7 @@ function MainNavBar() {
           
   return (
    <Box 
+   backgroundColor={{ base: 'rgba(8, 34, 46,0.8)', md: 'inherit' }}
    className={colorChange ? 'navbar colorChange' : 'navbar'}
    display={{sm: 'block', lg: 'flex'}}
    position="fixed" 

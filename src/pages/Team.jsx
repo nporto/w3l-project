@@ -3,6 +3,7 @@ import Gabriela2 from '../../Images/Gabriela2.jpeg'
 import Fernando from '../../Images/Fernando.jpeg'
 import Luis from '../../Images/Luis.jpeg'
 import Santiago from '../../Images/Santiago.jpeg'
+import TeamCard from '../components/TeamCard'
 
 function Team() {
 
@@ -15,54 +16,12 @@ function Team() {
          gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr'}} 
          gridTemplateRows={{base: '1fr 1fr 1fr 1fr', md: '1fr 1fr 1fr 1fr 1fr 1fr', lg: '1fr 1fr'}} gridGap="4"
          paddingLeft={{base: '0rem', md: '2rem', lg: '4rem'}}>
-            <Box background="rgb(71, 222, 242)" maxWidth={{base: '100%', lg: '80%'}} color="white" borderRadius="1rem" display="flex" flexDirection="row" textAlign="center" position="relative">
-                  <Image 
-                  maxWidth="50%" 
-                  height="auto" 
-                  objectFit="cover"
-                  borderRadius="1rem" 
-                  src={Gabriela2} />
-                  <Box position="relative" top={{base: '10%', lg: '40%'}} display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
-                        <Heading>Gabriela Macagni</Heading>
-                        <Text fontSize="2xl" fontWeight="500">Matterscale Ventures</Text>
-                  </Box>
-            </Box>
-            <Box display="flex" background="rgb(71, 222, 242)" maxWidth={{base: '100%', lg: '80%'}} color="white" borderRadius="1rem" flexDirection="row" textAlign="center" position="relative">
-                  <Image 
-                  maxWidth="50%" 
-                  height="auto" 
-                  objectFit="cover"
-                  borderRadius="1rem" 
-                  src={Fernando} />
-                  <Box position="relative" top="40%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
-                        <Heading fontSize={{base: '2xl', lg: '4xl'}}>Fernando Errandosoro</Heading>
-                        <Text fontSize="2xl" fontWeight="500"></Text>
-                  </Box>
-            </Box>
-            <Box display="flex" background="rgb(71, 222, 242)" maxWidth={{base: '100%', lg: '80%'}} color="white" borderRadius="1rem" flexDirection="row" textAlign="center" position="relative">
-                  <Image 
-                  maxWidth="50%" 
-                  height="auto" 
-                  objectFit="cover"
-                  borderRadius="1rem" 
-                  src={Luis} />
-                  <Box position="relative" top="40%" display="flex" flexDirection="column" textAlign="center" paddingLeft="1rem">
-                        <Heading>Luis Paolini</Heading>
-                        <Text fontSize="2xl" fontWeight="500"></Text>
-                  </Box>
-            </Box>
-            <Box display="flex" background="rgb(71, 222, 242)" maxWidth={{base: '100%', lg: '80%'}} color="white" borderRadius="1rem" flexDirection="row" textAlign="center" position="relative">
-                  <Image 
-                  maxWidth="50%" 
-                  height="auto" 
-                  objectFit="cover"
-                  borderRadius="1rem" 
-                  src={Santiago} />
-                  <Box position="relative" top="40%" display="flex" maxWidth="100%" flexDirection="column" textAlign="center" paddingLeft="1rem">
-                        <Heading>Santiago Valles</Heading>
-                        <Text fontSize="2xl" fontWeight="500"></Text>
-                  </Box>
-            </Box>
+            <TeamCard image={Gabriela2} name="Gabriela Macagni" description="Matterscale Ventures" />
+            <TeamCard image={Fernando} name="Fernando Errandosoro" />
+            <TeamCard image={Luis} name="Luis Paolini" />
+            <TeamCard image={Santiago} name="Santiago Valles" />
+            
+            
           </Box>
           <Box minWidth="100%"
          display="grid" 
