@@ -1,4 +1,4 @@
-import {  Box, Heading, Text, Image } from '@chakra-ui/react'
+import {  Box, Heading, Text, Image, AspectRatio, Container } from '@chakra-ui/react'
 import Mail from '../../Images/mail.png'
 import Map from '../../Images/map.png'
 
@@ -19,6 +19,9 @@ function Contact() {
                   <Heading padding="1rem" size="lg">Contactános</Heading>
                   <Text maxWidth="100%">E-Mail</Text>
             </Box>
+      </Box>
+      <Box display="flex" flexWrap="wrap" boxSizing="border-box" justifyContent="center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.558098906875!2d-58.40344368418905!3d-34.64060586695902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb139c3001c5%3A0x955a9dcc75e857c8!2sITBA%20Sede%20Distrito%20Tecnol%C3%B3gico!5e0!3m2!1ses-419!2sar!4v1660394975685!5m2!1ses-419!2sar" style={{border: '0', width: '80%', height: '500px', objectFit: 'cover'}}></iframe>
       </Box>
    </Box>
   )
