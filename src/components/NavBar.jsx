@@ -50,10 +50,10 @@ function MainNavBar() {
             </a>
          </Box>
          <Box 
-         display={{sm: '', lg: "flex"}} 
-         flexDirection={{sm: '', lg: 'row'}} 
-         justifyContent={{sm: '', lg: 'center'}} 
-         alignItems={{sm: '', lg: 'center'}} 
+         display={{sm: '', md: 'flex', lg: "flex"}} 
+         flexDirection={{sm: '', md: 'row', lg: 'row'}} 
+         justifyContent={{sm: '',md: 'center', lg: 'center'}} 
+         alignItems={{sm: '', md: 'center', lg: 'center'}} 
          className={navBarActive ? 'navbar-links active' : 'navbar-links'}>
             <UnorderedList position="relative" display="flex" flexDirection="row" styleType="none" alignItems="center" justifyContent="space-between">
                         <ListItem color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link></Heading></ListItem>
