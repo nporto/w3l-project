@@ -29,6 +29,7 @@ function Home() {
             <Button paddingTop="1.6rem" colorScheme="green" padding="1.6rem" fontSize="1.5rem"><a href="#team">Get Started</a></Button>
          </Box>
          <Box 
+         paddingTop={{base: "auto", md: '3rem', lg: 'auto'}} 
          marginRight={{base: "0%", md: 'auto', lg: 'auto'}} 
          marginTop={{base: '25%', md: 'auto', lg: 'auto'}} 
          marginLeft={{base: '50%', md: 'auto', lg: 'auto'}} 

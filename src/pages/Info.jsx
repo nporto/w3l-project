@@ -13,7 +13,7 @@ function Info() {
    paddingX="9rem"
    paddingY={{base: '1rem', md: '2rem', lg: '3rem'}}
    overflow="hidden"
-   maxHeight={{base: 'auto', md: 'auto', lg: '10vh'}}>
+   maxHeight={{base: '10vh', md: '10vh', lg: '10vh'}}>
          <Box display="flex" flexDirection={{base: 'column', md: 'row', lg: 'row'}} justifyContent={{base: 'center', md: 'space-around', lg: 'space-around'}} alignItems="center" maxWidth="70vw">
             <Box display="flex"flexDirection="column" paddingX={{base: '0rem', md: '1.6rem', lg: '3rem'}}>
                <Heading textAlign="center">+15</Heading>
