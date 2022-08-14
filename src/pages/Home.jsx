@@ -30,12 +30,12 @@ function Home() {
          </Box>
          <Box 
          marginRight={{base: "0%", md: 'auto', lg: 'auto'}} 
-         marginTop={{base: '50%', md: 'auto', lg: 'auto'}} 
+         marginTop={{base: '25%', md: 'auto', lg: 'auto'}} 
          marginLeft={{base: '50%', md: 'auto', lg: 'auto'}} 
          marginBottom="auto" 
          width={{base: '100%', md: '55%', lg: '50%'}}>
             <Image 
-            maxWidth={{base: '50%', md: '260px', lg: '360px'}}
+            maxWidth={{base: '50%', md: '260px', lg: '320px'}}
             height="auto" 
             objectFit="cover" 
             src={QR2} />

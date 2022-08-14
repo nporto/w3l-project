@@ -28,7 +28,8 @@ function MainNavBar() {
    <Box 
    backgroundColor={{ base: 'rgba(8, 34, 46,0.8)', md: 'inherit' }}
    className={colorChange ? 'navbar colorChange' : 'navbar'}
-   display={{sm: 'block', lg: 'flex'}}
+   display={{sm: 'block', md: 'flex', lg: 'flex'}}
+   flexDirection={{sm: 'auto', md: 'column', lg: 'row'}}
    position="fixed" 
    top="0" 
    right="0" 
@@ -39,7 +40,7 @@ function MainNavBar() {
    transition="all 0.5s"
    zIndex="997"
    >
-         <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl"><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}><Image maxHeight="48px" src={logoWhite} /></Link></Heading></Box>
+         <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl"><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}><Image maxHeight={{base: '36px', md: '42px', lg: '48px'}} src={logoWhite} /></Link></Heading></Box>
          <Box cursor="pointer" height="100%" display="block" background>
             <a className="toggle-button" onClick={() => {
             setNavBarActive(!navBarActive)
