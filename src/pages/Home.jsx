@@ -14,7 +14,7 @@ function Home() {
   return (
    <Box 
    id="home"
-   minHeight="90vh" 
+   minHeight={{base: '90vh', md: '85vh', lg: '90vh'}}
    maxWidth="100vw"
    display="flex" 
    flexDirection={{base: "column-reverse", md: "row", lg: "row"}} 
