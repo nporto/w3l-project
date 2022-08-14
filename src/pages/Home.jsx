@@ -33,9 +33,9 @@ function Home() {
          marginTop={{base: '50%', md: 'auto', lg: 'auto'}} 
          marginLeft={{base: '50%', md: 'auto', lg: 'auto'}} 
          marginBottom="auto" 
-         width={{base: '100%', md: '70%', lg: '50%'}}>
+         width={{base: '100%', md: '55%', lg: '50%'}}>
             <Image 
-            maxWidth={{base: '50%', md: '50%', lg: '360px'}}
+            maxWidth={{base: '50%', md: '260%', lg: '360px'}}
             height="auto" 
             objectFit="cover" 
             src={QR2} />
