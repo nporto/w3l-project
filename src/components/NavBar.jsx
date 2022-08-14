@@ -58,10 +58,10 @@ function MainNavBar() {
          className={navBarActive ? 'navbar-links active' : 'navbar-links'}>
             <UnorderedList position="relative" display="flex" flexDirection="row" styleType="none" alignItems="center" justifyContent="space-between">
                         <ListItem color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link></Heading></ListItem>
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-80} duration={500}>Team</Link></Heading></ListItem> 
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="speakers" spy={true} smooth={true} offset={-80} duration={500}>Speakers</Link></Heading></ListItem>  
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="sponsors" spy={true} smooth={true} offset={-80} duration={500}>Partners</Link></Heading></ListItem>
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-80} duration={500}>FAQ</Link></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-58} duration={500}>Team</Link></Heading></ListItem> 
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="speakers" spy={true} smooth={true} offset={-58} duration={500}>Speakers</Link></Heading></ListItem>  
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="sponsors" spy={true} smooth={true} offset={-58} duration={500}>Partners</Link></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-58} duration={500}>FAQ</Link></Heading></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><a href="https://twitter.com/ITBAW3LAB" target="_blank"><Image src={Twitter1} /></a></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><a href="https://www.linkedin.com/company/itba-w3-lab/?viewAsMember=true" target="_blank"><Image src={Linkedin} /></a></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><a href="https://www.itba.edu.ar/" target="_blank"><Image maxHeight="48px" src={logoITBAWhite} /></a></ListItem>

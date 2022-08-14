@@ -16,7 +16,7 @@ import Card from '../components/SpeakersCard'
 function Speakers() {
 
   return (
-   <Box padding="2rem" paddingTop="5rem" backgroundColor="rgb(249, 248, 255)" id="speakers">
+   <Box padding="2rem" paddingTop="3rem" backgroundColor="rgb(249, 248, 255)" id="speakers">
          <Heading padding="1rem">Speakers</Heading>
          <Box display="flex" justifyContent="center" alignItems="center" width="100%">
             <Box 

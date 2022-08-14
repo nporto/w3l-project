@@ -8,7 +8,7 @@ import TeamCard from '../components/TeamCard'
 function Team() {
 
   return (
-   <Box maxWidth="100vw" padding="3rem" paddingTop="5rem" paddingBottom="2rem" id="team">
+   <Box maxWidth="100vw" padding="3rem" paddingTop="3rem" paddingBottom="2rem" id="team">
          <Heading textAlign="center" paddingBottom="2rem">¿QUIENES SOMOS?</Heading>
          <Box 
          minWidth="100%"
