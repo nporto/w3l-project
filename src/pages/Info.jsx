@@ -11,7 +11,7 @@ function Info() {
    alignItems="center"
    color="white"
    paddingX="9rem"
-   paddingY="1rem"
+   paddingY={{base: '1rem', md: '2rem', lg: '3rem'}}
    overflow="hidden"
    maxHeight={{base: 'auto', md: 'auto', lg: '10vh'}}>
          <Box display="flex" flexDirection={{base: 'column', md: 'row', lg: 'row'}} justifyContent={{base: 'center', md: 'space-around', lg: 'space-around'}} alignItems="center" maxWidth="70vw">
