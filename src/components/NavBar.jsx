@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { UnorderedList, Box, ListItem, Heading, Image } from '@chakra-ui/react'
+import { Link } from 'react-scroll'
 import './NavBar.css'
 import Twitter1 from '../../Images/Twitter32.png'
-import ITBA from '../../Images/ITBA-logo.png'
 import Linkedin from '../../Images/Linkedin32.png'
 import logoWhite from '../../Images/logoWhite.png'
 import logoITBAWhite from '../../Images/logoITBAWhite.png'
@@ -56,11 +56,11 @@ function MainNavBar() {
          alignItems={{sm: '', lg: 'center'}} 
          className={navBarActive ? 'navbar-links active' : 'navbar-links'}>
             <UnorderedList position="relative" display="flex" flexDirection="row" styleType="none" alignItems="center" justifyContent="space-between">
-                        <ListItem color="white" cursor="pointer"><Heading size="md"><a href="#home">Home</a></Heading></ListItem>
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#team">Team</a></Heading></ListItem>   
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#sponsors">Sponsors y colaboraciones</a></Heading></ListItem>
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#speakers">Speakers</a></Heading></ListItem>
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><a href="#faq">FAQ</a></Heading></ListItem>
+                        <ListItem color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-100} duration={500}>Team</Link></Heading></ListItem> 
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="speakers" spy={true} smooth={true} offset={-80} duration={500}>Speakers</Link></Heading></ListItem>  
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="sponsors" spy={true} smooth={true} offset={-80} duration={500}>Sponsors y colaboraciones</Link></Heading></ListItem>
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-80} duration={500}>FAQ</Link></Heading></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><a href="https://twitter.com/ITBAW3LAB" target="_blank"><Image src={Twitter1} /></a></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><a href="https://www.linkedin.com/company/itba-w3-lab/?viewAsMember=true" target="_blank"><Image src={Linkedin} /></a></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><a href="https://www.itba.edu.ar/" target="_blank"><Image maxHeight="48px" src={logoITBAWhite} /></a></ListItem>

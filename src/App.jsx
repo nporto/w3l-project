@@ -12,8 +12,12 @@ import Contact from './pages/Contact'
 
 function App() {
 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+  </style>
+
   return (
-      <Box minHeight="100vh" overflowX="hidden">
+      <Box minHeight="100vh" overflowX="hidden" style={{fontFamily: 'Poppins'}} >
         <Home />
         <NavBar />
         <Info />
