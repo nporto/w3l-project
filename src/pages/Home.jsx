@@ -22,7 +22,7 @@ function Home() {
    paddingLeft={{base: '0', md: '0', lg: '10rem'}}
    background="linear-gradient(45deg, rgb(51, 63, 255) 0%, rgb(71, 222, 242) 100%), url(../Images/hero-bg.jpg) center center no-repeat;"
    textAlign={{base: 'center', md: 'inherit', lg: 'inherit'}}>
-         <Box padding="5rem" width={{base: '100%', md: '70%', lg: '50%'}}>
+         <Box padding="5rem" paddingTop={{base: '2rem', md: '5rem', lg: '5rem'}} width={{base: '100%', md: '70%', lg: '50%'}}>
             <Text marginY={{base: '1rem', md: '1rem', lg: '1.1rem'}} color="green.400" fontWeight="700" fontSize="1.6rem">Fecha | Lugar</Text>
             <Heading color="white" size="4xl"><Image src={logoStandard} /></Heading>
             <Text marginY={{base: '1rem', md: '1rem', lg: '1.1rem'}} color="white" fontSize="1.3rem">Slogan</Text>
