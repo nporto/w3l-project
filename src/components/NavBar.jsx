@@ -57,7 +57,7 @@ function MainNavBar() {
          className={navBarActive ? 'navbar-links active' : 'navbar-links'}>
             <UnorderedList position="relative" display="flex" flexDirection="row" styleType="none" alignItems="center" justifyContent="space-between">
                         <ListItem color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link></Heading></ListItem>
-                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-100} duration={500}>Team</Link></Heading></ListItem> 
+                        <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-80} duration={500}>Team</Link></Heading></ListItem> 
                         <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="speakers" spy={true} smooth={true} offset={-80} duration={500}>Speakers</Link></Heading></ListItem>  
                         <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="sponsors" spy={true} smooth={true} offset={-80} duration={500}>Sponsors y colaboraciones</Link></Heading></ListItem>
                         <ListItem px="0.8rem" color="white" cursor="pointer"><Heading size="md"><Link activeClass="active" to="faq" spy={true} smooth={true} offset={-80} duration={500}>FAQ</Link></Heading></ListItem>
