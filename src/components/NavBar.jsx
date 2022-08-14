@@ -39,7 +39,7 @@ function MainNavBar() {
    transition="all 0.5s"
    zIndex="997"
    >
-         <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl"><a href="#home"><Image maxHeight="48px" src={logoWhite} /></a></Heading></Box>
+         <Box><Heading cursor="pointer" paddingRight="16rem" color="white" size="xl"><Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}><Image maxHeight="48px" src={logoWhite} /></Link></Heading></Box>
          <Box cursor="pointer" height="100%" display="block" background>
             <a className="toggle-button" onClick={() => {
             setNavBarActive(!navBarActive)
