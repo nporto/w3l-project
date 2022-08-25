@@ -4,6 +4,10 @@ import Fernando from '../../Images/Fernando.jpeg'
 import Luis from '../../Images/Luis.jpeg'
 import Santiago from '../../Images/Santiago.jpeg'
 import TeamCard from '../components/TeamCard'
+import TeamCardCollab from '../components/TeamCardCollab'
+import Bautista from '../../Images/Bautista.jpeg'
+import Nicolas from '../../Images/Nicolas.jpeg'
+import Marcos from '../../Images/Marcos.webp'
 
 function Team() {
 
@@ -14,12 +18,23 @@ function Team() {
          minWidth="100%"
          display="grid" 
          gridTemplateColumns={{base: '1 fr', md: '1fr 1fr', lg: '1fr 1fr'}} 
-         gridTemplateRows={{base: '1fr 1fr 1fr 1fr', md: '1fr 1fr 1fr 1fr 1fr 1fr', lg: '1fr 1fr'}} gridGap="4"
+         gridTemplateRows={{base: '1fr 1fr 1fr 1fr', md: '1fr 1fr', lg: '1fr 1fr'}} gridGap="8"
          paddingLeft={{base: '0rem', md: '2rem', lg: '4rem'}}>
             <TeamCard image={Gabriela2} name="Gabriela Macagni" description="Matterscale Ventures" />
             <TeamCard image={Fernando} name="Fernando Errandosoro" />
             <TeamCard image={Luis} name="Luis Paolini" />
             <TeamCard image={Santiago} name="Santiago Valles" />
+          </Box>
+          <Box 
+          minWidth="100%"
+          display="grid" 
+          gridTemplateColumns={{base: '1fr', md: '1fr 1fr', lg: '1fr 1fr 1fr'}} 
+          gridTemplateRows={{base: '1fr 1fr 1fr', md: '1fr 1fr', lg: '1fr'}} gridGap="8"
+          paddingLeft={{base: '0rem', md: '2rem', lg: '4rem'}}
+          paddingTop={{base: '1.8rem', md: '2rem', lg: '2rem'}}>
+            <TeamCardCollab image={Bautista} name="Bautista Solo" />
+            <TeamCardCollab image={Nicolas} name="Nicolas Rodriguez Herrera" />
+            <TeamCardCollab image={Marcos} name="Marcos Dedeu" />
           </Box>
    </Box>
   )

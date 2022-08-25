@@ -21,7 +21,7 @@ function Contact() {
             </Box>
       </Box>
       <Box display="flex" flexWrap="wrap" boxSizing="border-box"  justifyContent="center" paddingBottom="2rem">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.558098906875!2d-58.40344368418905!3d-34.64060586695902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb139c3001c5%3A0x955a9dcc75e857c8!2sITBA%20Sede%20Distrito%20Tecnol%C3%B3gico!5e0!3m2!1ses-419!2sar!4v1660394975685!5m2!1ses-419!2sar" style={{border: '0', width: '80%', height: '400px', objectFit: 'cover'}}></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1952.6453721482706!2d-58.37497404314368!3d-34.6055525805552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd8c7176f8bd13237!2sITBA%20Sede%20Distrito%20Financiero!5e0!3m2!1ses-419!2sar!4v1661465186687!5m2!1ses-419!2sar" style={{border: '0', width: '80%', height: '450px', objectFit: 'cover'}}></iframe>
       </Box>
    </Box>
   )

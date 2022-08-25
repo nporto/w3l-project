@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import {  Box, Heading } from '@chakra-ui/react'
 import Julian from '../../Images/julianeuss.jpeg'
 import Tomas from '../../Images/tomas.jpg'
@@ -9,6 +10,7 @@ import Nicolas2 from '../../Images/nicolas2.jpg'
 import Gabriela from '../../Images/gabriela.jpg'
 import Manuel from '../../Images/manuel.jpg'
 import Alfonso from '../../Images/alfonso.jpg'
+import Ariel from '../../Images/Ariel.jpeg' 
 import Card from '../components/SpeakersCard'
 
 
@@ -32,7 +34,7 @@ function Speakers() {
                   <Card image={Yemel} name="Yemel Jardi" description="Ingeniero Informatico - ITBA" twLink="https://twitter.com/yemeljardi?lang=es" igLink="https://www.instagram.com/yimi_drone/" linkedLink="https://www.linkedin.com/in/yemel/" />
                   <Card image={Martin} name="Martin Nagelberg" description="Co-Founder & CTO - Tienda Dolar" twLink="#" igLink="#" linkedLink="https://www.linkedin.com/in/martin-nagelberg/" />
                   <Card image={Manuel} name="Manuel Araoz" description="Founder OpenZeppelin" twLink="#" igLink="#" linkedLink="https://www.linkedin.com/in/manuelaraoz/" />
-                  <Card image="" name="Ariel Scaliter" description="Agrotoken" twLink="#" igLink="#" linkedLink="#" />
+                  <Card image={Ariel} name="Ariel Scaliter" description="Agrotoken" twLink="#" igLink="#" linkedLink="#" />
                   <Card image={Nicolas2} name="Nicolas D'onofrio" description="Co-Founder Tienda Dolar" twLink="#" igLink="#" linkedLink="https://www.linkedin.com/in/nicdonofrio/" />
                   <Card image={Gabriela} name="Gabriela Macagni" description="Matterscale Ventures" twLink="#" igLink="#" linkedLink="https://www.linkedin.com/in/gabriela-macagni-9716968/" />
                   <Card image="" name="Alfonso Amat" description="AWS" twLink="#" igLink="#" linkedLink="https://www.linkedin.com/in/alfonsoamat/" />

@@ -3,10 +3,10 @@ import Twitter2 from '../../Images/Twitter24.png'
 import Ig2 from '../../Images/Ig24.png'
 import Linkedin from '../../Images/linkedin24.png'
 
-function TeamCard(props) {
+function TeamCardCollab(props) {
 
   return (
-      <Box background="rgb(71, 222, 242)" maxWidth={{base: '100%', lg: '75%'}} color="white" borderRadius="1rem" display="flex" flexDirection="row" textAlign="center" position="relative">
+      <Box background="rgb(71, 222, 242)" maxWidth={{base: '100%', lg: '90%'}} color="white" borderRadius="1rem" display="flex" flexDirection="row" textAlign="center" position="relative">
             <Image 
             maxWidth="50%" 
             height="auto" 
@@ -27,4 +27,4 @@ function TeamCard(props) {
   )
 }
 
-export default TeamCard
+export default TeamCardCollab
