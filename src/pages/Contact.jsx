@@ -12,7 +12,7 @@ function Contact() {
             <Box display="flex" flexDirection="column" padding="3rem" backgroundColor="white" borderRadius="0.6rem" alignItems='center'>
                   <Image src={Map} maxWidth="48px" />
                   <Heading padding="1rem" size="lg">SEDE DEL EVENTO</Heading>
-                  <Text>ITBA Sede Distrito Tecnológico, Lavarden 315</Text>
+                  <Text>ITBA Sede Distrito Financiero, San Martín 202</Text>
             </Box>
             <Box display="flex" flexDirection="column" padding="3rem" backgroundColor="white" borderRadius="0.6rem" marginX={{base: '0rem', md: '0rem', lg: '3rem'}} marginY={{base: '2rem', md: '2.5rem', lg: '0rem'}} alignItems='center'>
                   <Image src={Mail} maxWidth="48px" />
