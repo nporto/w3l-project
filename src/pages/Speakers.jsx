@@ -30,6 +30,8 @@ function Speakers() {
                gridGap="5"
             >
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.2 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Julian}
                   name="Julian Neuss"
                   description="Co-Founder & CEO - Fanz"
@@ -38,6 +40,8 @@ function Speakers() {
                   linkedLink="https://www.linkedin.com/in/jneuss/?originalSubdomain=ar"
                />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.5 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Tomas}
                   name="Tomás Soracco"
                   description="POAP Co-Founder"
@@ -46,6 +50,8 @@ function Speakers() {
                   linkedLink="https://www.linkedin.com/in/tom%C3%A1s-soracco-192604128/"
                />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.8 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Pablo}
                   name="Pablo Sabatella"
                   description="DefyEducation"
@@ -54,6 +60,8 @@ function Speakers() {
                   linkedLink="https://www.linkedin.com/in/psabbatella/"
                />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 1.1 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Nicolas}
                   name="Nicolas Earnshaw"
                   description="Decentraland"
@@ -62,6 +70,8 @@ function Speakers() {
                   linkedLink="https://www.linkedin.com/in/nicolas-earnshaw-6230a36/"
                />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.2 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Yemel}
                   name="Yemel Jardi"
                   description="Ingeniero Informatico - ITBA"
@@ -70,6 +80,8 @@ function Speakers() {
                   linkedLink="https://www.linkedin.com/in/yemel/"
                />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.5 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Martin}
                   name="Martin Nagelberg"
                   description="Co-Founder & CTO - Tienda Dolar"
@@ -78,6 +90,8 @@ function Speakers() {
                   linkedLink="https://www.linkedin.com/in/martin-nagelberg/"
                />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.8 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Manuel}
                   name="Manuel Araoz"
                   description="Founder OpenZeppelin"
@@ -85,8 +99,19 @@ function Speakers() {
                   igLink="#"
                   linkedLink="https://www.linkedin.com/in/manuelaraoz/"
                />
-               <Card image={Ariel} name="Ariel Scaliter" description="Agrotoken" twLink="#" igLink="#" linkedLink="#" />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 1.1 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
+                  image={Ariel}
+                  name="Ariel Scaliter"
+                  description="Agrotoken"
+                  twLink="#"
+                  igLink="#"
+                  linkedLink="#"
+               />
+               <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.2 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Nicolas2}
                   name="Nicolas D'onofrio"
                   description="Co-Founder Tienda Dolar"
@@ -95,6 +120,8 @@ function Speakers() {
                   linkedLink="https://www.linkedin.com/in/nicdonofrio/"
                />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.5 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image={Gabriela}
                   name="Gabriela Macagni"
                   description="Matterscale Ventures"
@@ -103,6 +130,8 @@ function Speakers() {
                   linkedLink="https://www.linkedin.com/in/gabriela-macagni-9716968/"
                />
                <Card
+                  whileInViewDesktop={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2, delay: 0.8 } }}
+                  whileInViewMobile={{ x: 0, y: 0, opacity: 1, transition: { duration: 1.2 } }}
                   image=""
                   name="Alfonso Amat"
                   description="AWS"
