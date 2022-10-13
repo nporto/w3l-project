@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Image, AspectRatio, Container } from "@chakra-ui/react";
+import { Box, Heading, Text, Image } from "@chakra-ui/react";
 import Mail from "../../Images/mail.png";
 import Map from "../../Images/map.png";
 
@@ -12,13 +12,14 @@ function Contact() {
          width="100vw"
       >
          <Heading>¿QUERÉS SUMARTE COMO SPONSOR?</Heading>
-         <Text>Comunicate con nosotros y te contamos como podes formar parte del evento</Text>
+         <Text fontSize="19px">Comunicate con nosotros y te contamos como podes formar parte del evento</Text>
          <Box
             display="flex"
             flexDirection={{ base: "column", md: "column", lg: "row" }}
             width="100%"
             justifyContent="center"
             padding="3rem"
+            paddingTop="1.5rem"
          >
             <Box
                display="flex"

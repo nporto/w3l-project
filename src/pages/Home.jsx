@@ -1,11 +1,7 @@
-import { UnorderedList, ListItem, Box, Button, Heading, Text, Image } from "@chakra-ui/react";
-import Info from "./Info";
-import logoStandard from "../../Images/logoStandard.png";
+import { Box, Button, Heading, Text, Image } from "@chakra-ui/react";
+import { Link } from "react-scroll";
+import logoWhite from "../../Images/logoWhite.png";
 import QR2 from "../../Images/QR2.jpeg";
-import Twitter1 from "../../Images/Twitter32.png";
-import Linkedin from "../../Images/Linkedin32.png";
-import logoITBAWhite from "../../Images/logoITBAWhite.png";
-import logoITBA from "../../Images/ITBA-logo.png";
 
 function Home() {
    // background linear-gradient(45deg, rgb(17, 33, 73) 0%, rgb(19, 81, 239) 100%), url(../Images/hero-bg.jpg) center center no-repeat;
@@ -27,22 +23,17 @@ function Home() {
             paddingTop={{ base: "2rem", md: "5rem", lg: "5rem" }}
             width={{ base: "100%", md: "70%", lg: "50%" }}
          >
-            <Text
-               marginY={{ base: "1rem", md: "1rem", lg: "1.1rem" }}
-               color="green.400"
-               fontWeight="700"
-               fontSize="1.6rem"
-            >
-               Fecha | Lugar
+            <Text marginY={{ base: "1rem", md: "1rem", lg: "1.1rem" }} fontWeight="700" fontSize="1.6rem" color="white">
+               Instituto Tecnológico de Buenos Aires
             </Text>
-            <Heading color="white" size="4xl">
-               <Image src={logoStandard} />
+            <Heading color="white" size="4xl" paddingBottom="2rem">
+               <Image src={logoWhite} />
             </Heading>
-            <Text marginY={{ base: "1rem", md: "1rem", lg: "1.1rem" }} color="white" fontSize="1.3rem">
-               Slogan
-            </Text>
+
             <Button paddingTop="1.6rem" colorScheme="green" padding="1.6rem" fontSize="1.5rem">
-               <a href="#team">Get Started</a>
+               <Link activeClass="active" to="team" spy={true} smooth={true} offset={-40} duration={500}>
+                  Get Started
+               </Link>
             </Button>
          </Box>
          <Box
